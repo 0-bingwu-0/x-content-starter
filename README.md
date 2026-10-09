@@ -8,7 +8,7 @@ This project has AI do that with you every day: find what's hot, pick a topic, a
 
 Open this project in StashBase and tell the Agent:
 
-1. **"Find what's hot."** It pulls the last 24 hours of posts from the X accounts you follow, groups them by story, and suggests topics based on your profile and past posts. On the first run, it walks you through setting up the [X API](#x-api).
+1. **"Find what's hot."** It pulls the last 24 hours of posts from the X accounts you follow, groups them by story, and suggests topics based on your profile and past posts. On the first run, it asks whether you want to set up the [X API](#x-api). If you'd rather try it first, skip the setup and paste a post you came across. It'll suggest how to join that conversation instead.
 2. **"Write the first one."** It gives you an outline first. Once you approve it, it writes an X Post or X Article and saves it to `output/`.
 3. **Any edits you want.** For example, "Make the opening more casual."
 

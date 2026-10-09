@@ -42,6 +42,8 @@ Post format:
 
 Post text
 
+**Quoting:** Link to the quoted post (if it's a quote post)
+
 **Reply:** Reply text (if any)
 ```
 

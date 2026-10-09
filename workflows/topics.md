@@ -17,7 +17,14 @@ node workflows/scripts/x-search.mjs 24 TheRundownAI testingcatalog emollick dans
 
 When changing accounts, update both the table and the command. Don't save the raw results.
 
-If the script says `X_BEARER_TOKEN` isn't set, don't look for other sources. Walk me through the setup in the [README](../README.md#x-api), then run it again.
+If the script says `X_BEARER_TOKEN` isn't set, don't look for other sources. Ask me which way I want to go:
+
+1. **Set up the X API** to pull fresh posts. Walk me through the setup in the [README](../README.md#x-api), then run it again.
+2. **Start from a post I give you.** I paste a post I came across (its text, plus the link if I have it), and you use it as the topic. See [Start from a post](#start-from-a-post).
+
+## Start from a post
+
+When I give you a post instead of a feed, skip "What's hot." Use what I pasted. If I only gave a link and you can't open it, ask me to paste the text. Then follow the steps in [Pick topics](#pick-topics), with one change: replace "What's hot" with a one-line summary of the post, and make each suggested topic a way to join that conversation, either by quoting it with my take or by writing my own Post or Article on the same subject.
 
 ## Pick topics
 
