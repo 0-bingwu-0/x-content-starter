@@ -26,7 +26,7 @@ Or just send the Agent your background, past posts, and the accounts you want to
 
 Finding what's hot needs [Node.js](https://nodejs.org) 20.12+, an Agent that can run local commands, and an [X API](https://developer.x.com) Bearer Token with prepaid credits.
 
-[X API pricing](https://docs.x.com/x-api/getting-started/pricing) is 0.005 USD per post read: fetching 20–100 posts costs about 0.10–0.50 USD in post reads. The script fetches up to 500 posts per run (2.50 USD in post reads) and prints that estimate. Returned user records are billed separately at 0.01 USD each; Agent usage is separate.
+[X API pricing](https://docs.x.com/x-api/getting-started/pricing) is $0.005 per post read: fetching 20–100 posts costs about $0.10–$0.50 in post reads. The script fetches up to 500 posts per run ($2.50 in post reads) and prints that estimate. Returned user records are billed separately at $0.01 each; Agent usage is separate.
 
 Put the token in a `.env` file in the project root (it's in `.gitignore`, so it won't be committed):
 
