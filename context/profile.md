@@ -1,6 +1,6 @@
 # My Profile
 
-Read this before suggesting topics or writing posts. Below is an example setup; replace it with your own.
+Read this before suggesting topics or writing posts. Below is an example setup. Say "Set me up." in Chat to replace it with yours, or edit it directly.
 
 ## Background
 
@@ -24,3 +24,22 @@ Ideas I keep coming back to:
 
 * Saving things is easy. The hard part is finding them and using them when you need them.
 * The better AI gets, the more your own notes and judgment are worth, because that's context AI doesn't have.
+
+## Writing style
+
+* **Language:** English.
+* **Natural:** Like telling a friend about something, not a report or an ad. Jargon only when needed.
+* **Sentences:** Mostly short, with natural variety. Don't chase punchlines or impact.
+* **Tone:** Warm and sincere. State my view clearly and leave readers room to decide. No unnecessary disclaimers.
+* **Specific:** Be accurate. Say what happened, why it matters to the reader, and how I see it as a product builder. When comparing options, say where each fits and how they actually differ.
+* **Humor:** Light. A bit of self-deprecation is fine. Don't try hard to be funny.
+* **Emoji:** Plenty in Posts, for feeling. Keep it relaxed and conversational.
+* **Posts and Articles:** A Post centers on one point and stays relaxed. An Article is plain and patient, like explaining something to a friend.
+
+## Avoid
+
+* Pushing my product.
+
+## X Premium
+
+Yes. Long posts and Articles are fine.

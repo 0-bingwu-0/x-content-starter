@@ -8,19 +8,21 @@ This project has AI do that with you every day: find what's hot, pick a topic, a
 
 Open this project in StashBase and tell the Agent:
 
-1. **"Find what's hot."** It pulls the last 24 hours of posts from the X accounts you follow, groups them by story, and suggests topics based on your profile and past posts. On the first run, it asks whether you want to set up the [X API](#x-api). If you'd rather try it first, skip the setup and paste a post you came across. It'll suggest how to join that conversation instead.
-2. **"Write the first one."** It gives you an outline first. Once you approve it, it writes an X Post or X Article and saves it to `output/`.
-3. **Any edits you want.** For example, "Make the opening more casual."
+1. **"Set me up."** It asks you a few questions, one at a time: who you are, what you want to post about, who you want to reach, how you sound, what to avoid, and whether you have X Premium. Then it makes the project yours. Paste a few of your past posts when it asks how you sound, and it'll match your style better.
+2. **"Find what's hot."** It pulls the last 24 hours of posts from the X accounts you follow, groups them by story, and suggests topics based on your profile and past posts. On the first run, it asks whether you want to set up the [X API](#x-api). If you'd rather skip it, paste a post you came across, or just ask for topic ideas.
+3. **"Write the first one."** Or tell it what you want to write about today. It writes a Post or Thread right away and saves it to `output/x_posts.md`. For an X Article, it gives you an outline first.
+4. **Any edits you want.** For example, "Make the opening more casual."
 
-The template comes with an example setup: a builder and founder working on a personal knowledge base product. Try it as is, then make it yours.
+The template comes with an example setup: a builder and founder working on a personal knowledge base product. You can try it as is before running setup.
 
 ## Make it yours
 
-1. **Edit `context/profile.md`, plus the persona and writing style in `AGENTS.md`.** The more specific, the more it sounds like you.
-2. **Add your past posts.** Paste them into `output/x_posts.md`. 10–20 that best show your style is enough. If you've written Articles, put them in `output/x_articles/` and replace the example.
-3. **Change the account list in `workflows/topics.md`** to the sources in your field.
+Setup covers most of it. You can also change things anytime:
 
-Or just send the Agent your background, past posts, and the accounts you want to follow, and let it make the changes.
+* **Your background and writing style** are in `context/profile.md`. Edit it, or just tell the Agent. When you correct how something is written, it remembers.
+* **Past posts** go at the top of `output/x_posts.md`. 10–20 that best show your style is enough. Past Articles go in `output/x_articles/`.
+* **The accounts you follow** for finding what's hot are in `workflows/topics.md`. Change them to sources in your field, or send the Agent your list.
+* **The Agent's persona and rules** are in `AGENTS.md`.
 
 ## X API
 
@@ -36,11 +38,12 @@ X_BEARER_TOKEN=your-token-here
 
 ## Files
 
-* `AGENTS.md`: the AI's persona, your writing style, and the task index.
+* `AGENTS.md`: the AI's persona, how it writes for you, and the task index.
 * `CLAUDE.md`: points Claude Code to `AGENTS.md`.
-* `context/profile.md`: your background, posting goals, and posting angle.
+* `context/profile.md`: your background, posting goals, posting angle, writing style, and X Premium setting.
+* `workflows/setup.md`: the setup Q&A.
 * `workflows/topics.md`: how to find what's hot and pick topics, including the accounts you follow.
-* `workflows/write.md`: how to write X Posts and X Articles.
+* `workflows/write.md`: how to write X Posts, Threads, and X Articles.
 * `workflows/scripts/x-search.mjs`: pulls recent posts from the given accounts.
 * `output/x_posts.md`: your past posts and new ones.
 * `output/x_articles/`: X Articles, one file each.
